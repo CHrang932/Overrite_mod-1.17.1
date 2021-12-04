@@ -1,0 +1,77 @@
+{
+  "parent": "or:overack/root",
+  "display": {
+    "icon": {
+      "item": "or:gliron_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.overack.gliron_chestplate.title"
+    },
+    "description": {
+      "translate": "advancements.overack.gliron_chestplate.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gliron_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "or:gliron_helmet"
+            ]
+          }
+        ]
+      }
+    },
+    "gliron_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "or:gliron_chestplate"
+            ]
+          }
+        ]
+      }
+    },
+    "gliron_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "or:gliron_leggings"
+            ]
+          }
+        ]
+      }
+    },
+    "gliron_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "or:gliron_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gliron_helmet",
+      "gliron_chestplate",
+      "gliron_leggings",
+      "gliron_boots"
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+
+    "or:gliron_helmet",
+    "or:gliron_chestplate",
+    "or:gliron_leggings",
+    "or:gliron_boots",
+
+    "or:overrite_helmet",
+    "or:overrite_chestplate",
+    "or:overrite_leggings",
+    "or:overrite_boots"
+
+  ]
+}

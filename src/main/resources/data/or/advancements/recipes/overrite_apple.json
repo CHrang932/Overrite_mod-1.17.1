@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "or:overrite_apple"
+    ]
+  },
+  "criteria": {
+    "has_gliron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":["minecraft:golden_apple"]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "or:overrite_apple"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_gliron",
+      "has_the_recipe"
+    ]
+  ]
+}

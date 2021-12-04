@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "translate": "advancements.overack.root.title"
+    },
+    "description": {
+      "translate": "advancements.overack.root.description"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden" : false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

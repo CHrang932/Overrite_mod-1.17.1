@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "or:gliron_shovel"
+  },
+  "addition": {
+    "item": "or:overrite_diamond"
+  },
+  "result": {
+    "item": "or:overrite_shovel"
+  }
+}

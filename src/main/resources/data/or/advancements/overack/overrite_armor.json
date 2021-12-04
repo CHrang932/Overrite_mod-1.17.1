@@ -1,0 +1,56 @@
+{
+  "parent": "or:overack/overrite_ore",
+  "display": {
+    "icon": {
+      "item": "or:overrite_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.overack.overrite_armor.title"
+    },
+    "description": {
+      "translate": "advancements.overack.overrite_armor.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "overrite_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "or:overrite_helmet"
+            ]
+          },
+          {
+            "items": [
+              "or:overrite_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "or:overrite_leggings"
+            ]
+          },
+          {
+            "items": [
+              "or:overrite_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "overrite_armor"
+    ]
+  ]
+}

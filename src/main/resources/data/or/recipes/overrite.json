@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "or:overrite_ore"
+  },
+  "result": "or:overrite",
+  "experience": 2.0,
+  "cookingtime": 200
+}

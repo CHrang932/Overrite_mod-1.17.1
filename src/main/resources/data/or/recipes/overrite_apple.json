@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:golden_apple"
+  },
+  "addition": {
+    "item": "or:overrite_diamond"
+  },
+  "result": {
+    "item": "or:overrite_apple"
+
+
+  }
+}

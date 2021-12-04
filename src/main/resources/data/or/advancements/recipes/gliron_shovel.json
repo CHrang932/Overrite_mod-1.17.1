@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "or:gliron_shovel"
+    ]
+  },
+  "criteria": {
+    "has_gliron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":[ "minecraft:gold_block"]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "or:gliron_shovel"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_gliron",
+      "has_the_recipe"
+    ]
+  ]
+}

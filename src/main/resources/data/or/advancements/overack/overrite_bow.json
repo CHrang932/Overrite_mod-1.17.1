@@ -1,0 +1,36 @@
+{
+  "parent": "or:overack/overrite_ore",
+  "display": {
+    "icon": {
+      "item": "or:ov_bow",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.overack.overrite_bow.title"
+    },
+    "description": {
+      "translate": "advancements.overack.overrite_bow.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "overrite_bow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":["or:ov_bow"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "overrite_bow"
+    ]
+  ]
+}

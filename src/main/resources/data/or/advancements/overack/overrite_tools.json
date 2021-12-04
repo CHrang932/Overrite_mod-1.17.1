@@ -1,0 +1,36 @@
+{
+  "parent": "or:overack/overrite_ore",
+  "display": {
+    "icon": {
+      "item": "or:overrite_pickaxe",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.overack.overrite_tools.title"
+    },
+    "description": {
+      "translate": "advancements.overack.overrite_tools.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "overrite_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":["or:overrite_pickaxe"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "overrite_pickaxe"
+    ]
+  ]
+}

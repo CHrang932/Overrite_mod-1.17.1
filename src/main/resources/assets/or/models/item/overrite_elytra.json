@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "or:items/overrite_elytra"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "netherelytra:broken": 1
+      },
+      "model": "or:item/overrite_broken_elytra"
+    }
+  ]
+}

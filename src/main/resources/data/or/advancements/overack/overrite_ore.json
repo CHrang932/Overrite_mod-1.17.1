@@ -1,0 +1,37 @@
+{
+  "parent": "or:overack/root",
+  "display": {
+    "icon": {
+      "item": "or:overrite_ore"
+    },
+    "title": {
+      "translate": "advancements.overack.obtain_overrite_ore.title"
+    },
+    "description": {
+      "translate": "advancements.overack.obtain_overrite_ore.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "overrite_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "or:overrite_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "overrite_ore"
+    ]
+  ]
+}

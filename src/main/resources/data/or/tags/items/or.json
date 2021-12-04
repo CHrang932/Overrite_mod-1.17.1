@@ -1,0 +1,35 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:nether_star",
+    "or:overrite",
+    "or:overrite_ore",
+    "or:overrite_block",
+    "or:overrite_diamond",
+
+    "or:gliron_sword",
+    "or:gliron_pickaxe",
+    "or:gliron_axe",
+    "or:gliron_shovel",
+    "or:gliron_hoe",
+
+    "or:overrite_sword",
+    "or:overrite_pickaxe",
+    "or:overrite_axe",
+    "or:overrite_shovel",
+    "or:overrite_hoe",
+
+    "or:gliron_helmet",
+    "or:gliron_chestplate",
+    "or:gliron_leggings",
+    "or:gliron_boots",
+
+    "or:overrite_helmet",
+    "or:overrite_chestplate",
+    "or:overrite_leggings",
+    "or:overrite_boots",
+    "or:ov_bow",
+
+    "or:overrite_apple"
+  ]
+}

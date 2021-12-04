@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "333",
+    "333",
+    "333"
+  ],
+  "key": {
+    "3": {
+      "item": "or:overrite_diamond"
+    }
+  },
+
+  "result": {
+    "item": "or:overrite_block"
+  }
+}

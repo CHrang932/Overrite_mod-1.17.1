@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:bow"
+  },
+  "addition": {
+    "item": "or:overrite_diamond"
+  },
+  "result": {
+    "item": "or:ov_bow"
+  }
+}

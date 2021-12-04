@@ -1,0 +1,36 @@
+{
+  "parent": "or:overack/root",
+  "display": {
+    "icon": {
+      "item": "or:gliron_pickaxe",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.overack.gliron_tools.title"
+    },
+    "description": {
+      "translate": "advancements.overack.gliron_tools.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gliron_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":[ "or:gliron_pickaxe"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gliron_pickaxe"
+    ]
+  ]
+}
